@@ -48,10 +48,11 @@ public class Main {
           System.out.println(Arrays.toString(array));
       }
       
-
-//    {10,15,20,25,30,35,40}; True
-//    {40,35,30,25,20,15,10}; False
-//    {10,20,70,100,50,60,70}; False
+//    TEST DIZILERI
+//    {10,15,20,25,30,35,40} True
+//    {40,35,30,25,20,15,10} False
+//    {10,20,70,100,50,60,70} False
+//    {6,7,12,10,15,17,5} False
 
   }    
 }
