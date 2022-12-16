@@ -6,7 +6,7 @@ package heapodevi;
  */
 public class HeapKontrol {
     public static boolean isMinHeap(int[] array) {
-    // Yaprak yapisinda olmayan son node'dan (ornegin son yapragin ebeveyni) baslayarak kok node'a kadar gezinti
+    // Yaprak yapisinda olmayan son node'dan (ornegin son yapragin ebeveyni) baslayarak kok node'a kadar gezilir
     for (int i = (array.length - 2) / 2; i >= 0; i--) {
       // Eger o anki eleman kendi cocugundan buyukse dizi min heap yapisinda degildir ve false doner
       if (array[i] > array[2 * i + 1] || (2 * i + 2 < array.length && array[i] > array[2 * i + 2])) {
